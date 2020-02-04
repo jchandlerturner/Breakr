@@ -1,0 +1,368 @@
+{
+    "question": [
+        {
+            "id": "1",
+            "categoryId": "1",
+            "question": "What was your worst fashion disaster?",
+            "personal": false
+        },
+        {
+            "id": "2",
+            "categoryId": "1",
+            "question": "If your life was a reality TV show, what would be your theme song?",
+            "personal": false
+        },
+        {
+            "id": "3",
+            "categoryId": "2",
+            "question": "What is your idea of a perfect date?",
+            "personal": false
+        },
+        {
+            "id": "4",
+            "categoryId": "2",
+            "question": "What is one thing that gives you butterflies?",
+            "personal": false
+        },
+        {
+            "id": "5",
+            "categoryId": "3",
+            "question": "What's something not many people know about you?",
+            "personal": false
+        },
+        {
+            "id": "6",
+            "categoryId": "3",
+            "question": "What was your favorite thing to do as a kid?",
+            "personal": false
+        },
+        {
+            "id": "7",
+            "categoryId": "4",
+            "question": "What is the meaning of life?",
+            "personal": false
+        },
+        {
+            "id": "8",
+            "categoryId": "4",
+            "question": "What happens to a person after they die?",
+            "personal": false
+        },
+        {
+            "id": "9",
+            "categoryId": "5",
+            "question": "What do you think is the most important political issue at the moment?",
+            "personal": false
+        },
+        {
+            "id": "10",
+            "categoryId": "5",
+            "question": "Would you like to be a politician? Why, why not?",
+            "personal": false
+        },
+        {
+            "id": "11",
+            "categoryId": "6",
+            "question": "How long have you been with the company?",
+            "personal": false
+        },
+        {
+            "id": "12",
+            "categoryId": "6",
+            "question": "What's the most memorable thing that has happened to you since joining the company?",
+            "personal": false
+        },
+        {
+            "id": "13",
+            "categoryId": "7",
+            "question": "So, what do you do?",
+            "personal": false
+        },
+        {
+            "id": "14",
+            "categoryId": "7",
+            "question": "How did you hear about this event?",
+            "personal": false
+        }
+    ],
+    "category": [
+        {
+            "id": 1,
+            "categoryName": "Funny"
+        },
+        {
+            "id": 2,
+            "categoryName": "Flirty"
+        },
+        {
+            "id": 3,
+            "categoryName": "Friendly"
+        },
+        {
+            "id": 4,
+            "categoryName": "Philosophical"
+        },
+        {
+            "id": 5,
+            "categoryName": "Political"
+        },
+        {
+            "id": 6,
+            "categoryName": "Interview"
+        },
+        {
+            "id": 7,
+            "categoryName": "Networking"
+        }
+    ],
+    "relationship": [
+        {
+            "id": 1,
+            "name": "friend"
+        },
+        {
+            "id": 2,
+            "name": "lover"
+        },
+        {
+            "id": 3,
+            "name": "stranger"
+        },
+        {
+            "id": 4,
+            "name": "acquaintance"
+        },
+        {
+            "id": 5,
+            "name": "professional"
+        }
+    ],
+    "questionRelationship": [
+        {
+            "id": 1,
+            "questionId": 1,
+            "relationshipId": 1
+        },
+        {
+            "id": 2,
+            "questionId": 1,
+            "relationshipId": 2
+        },
+        {
+            "id": 3,
+            "questionId": 1,
+            "relationshipId": 3
+        },
+        {
+            "id": 3,
+            "questionId": 1,
+            "relationshipId": 3
+        },
+        {
+            "id": 4,
+            "questionId": 2,
+            "relationshipId": 1
+        },
+        {
+            "id": 5,
+            "questionId": 2,
+            "relationshipId": 2
+        },
+        {
+            "id": 6,
+            "questionId": 2,
+            "relationshipId": 3
+        },
+        {
+            "id": 7,
+            "questionId": 2,
+            "relationshipId": 4
+        },
+        {
+            "id": 8,
+            "questionId": 3,
+            "relationshipId": 1
+        },
+        {
+            "id": 9,
+            "questionId": 3,
+            "relationshipId": 2
+        },
+        {
+            "id": 10,
+            "questionId": 3,
+            "relationshipId": 3
+        },
+        {
+            "id": 11,
+            "questionId": 3,
+            "relationshipId": 4
+        },
+        {
+            "id": 12,
+            "questionId": 4,
+            "relationshipId": 1
+        },
+        {
+            "id": 13,
+            "questionId": 4,
+            "relationshipId": 2
+        },
+        {
+            "id": 14,
+            "questionId": 4,
+            "relationshipId": 3
+        },
+        {
+            "id": 15,
+            "questionId": 4,
+            "relationshipId": 4
+        },
+        {
+            "id": 16,
+            "questionId": 5,
+            "relationshipId": 1
+        },
+        {
+            "id": 17,
+            "questionId": 5,
+            "relationshipId": 2
+        },
+        {
+            "id": 18,
+            "questionId": 5,
+            "relationshipId": 3
+        },
+        {
+            "id": 19,
+            "questionId": 5,
+            "relationshipId": 4
+        },
+        {
+            "id": 20,
+            "questionId": 6,
+            "relationshipId": 1
+        },
+        {
+            "id": 21,
+            "questionId": 6,
+            "relationshipId": 2
+        },
+        {
+            "id": 22,
+            "questionId": 6,
+            "relationshipId": 3
+        },
+        {
+            "id": 23,
+            "questionId": 6,
+            "relationshipId": 4
+        },
+        {
+            "id": 24,
+            "questionId": 7,
+            "relationshipId": 1
+        },
+        {
+            "id": 25,
+            "questionId": 7,
+            "relationshipId": 2
+        },
+        {
+            "id": 26,
+            "questionId": 7,
+            "relationshipId": 3
+        },
+        {
+            "id": 27,
+            "questionId": 7,
+            "relationshipId": 4
+        },
+        {
+            "id": 28,
+            "questionId": 8,
+            "relationshipId": 1
+        },
+        {
+            "id": 29,
+            "questionId": 8,
+            "relationshipId": 2
+        },
+        {
+            "id": 30,
+            "questionId": 8,
+            "relationshipId": 3
+        },
+        {
+            "id": 31,
+            "questionId": 8,
+            "relationshipId": 4
+        },
+        {
+            "id": 32,
+            "questionId": 9,
+            "relationshipId": 1
+        },
+        {
+            "id": 33,
+            "questionId": 9,
+            "relationshipId": 2
+        },
+        {
+            "id": 34,
+            "questionId": 9,
+            "relationshipId": 3
+        },
+        {
+            "id": 35,
+            "questionId": 9,
+            "relationshipId": 4
+        },
+        {
+            "id": 36,
+            "questionId": 10,
+            "relationshipId": 1
+        },
+        {
+            "id": 37,
+            "questionId": 10,
+            "relationshipId": 2
+        },
+        {
+            "id": 38,
+            "questionId": 10,
+            "relationshipId": 3
+        },
+        {
+            "id": 39,
+            "questionId": 10,
+            "relationshipId": 4
+        },
+        {
+            "id": 40,
+            "questionId": 11,
+            "relationshipId": 5
+        },{
+            "id": 41,
+            "questionId": 12,
+            "relationshipId": 5
+        },
+        {
+            "id": 42,
+            "questionId": 13,
+            "relationshipId": 5
+        },
+        {
+            "id": 43,
+            "questionId": 14,
+            "relationshipId": 5
+        }
+    ],
+    "favorite": [
+        {
+            "id": 1,
+            "questionId": 1
+        }
+    ]
+
+}
