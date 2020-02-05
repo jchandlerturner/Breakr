@@ -1,0 +1,102 @@
+button {
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+.friendly {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px 20px;
+    position: absolute;
+    width: 122px;
+    height: 52px;
+    left: 9px;
+    top: 432px;
+    background: #33373D;
+    border: 1px solid #7975D5;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: #7975D5;
+}
+
+.stranger {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+    position: absolute;
+    width: 161px;
+    height: 52px;
+    left: 202px;
+    top: 432px;
+    background: #33373D;
+    border: 1px solid #5BD5C8;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: #5BD5C8;
+    justify-content: center;
+}
+
+.funny {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+    position: absolute;
+    width: 211px;
+    height: 52px;
+    left: 9px;
+    top: 522px;
+    background: #33373D;
+    border: 1px solid #4E98F4;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: #4E98F4;
+    justify-content: center;
+}
+
+.lover {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+    position: absolute;
+    width: 113px;
+    height: 52px;
+    left: 250px;
+    top: 522px;
+    background: #33373D;
+    border: 1px solid #E0746A;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: #E0746A;
+    justify-content: center;
+}
+
+.political {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+    position: absolute;
+    width: 218px;
+    height: 52px;
+    left: 79px;
+    top: 612px;
+    background: #33373D;
+    border: 1px solid #E58B4D;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: #E58B4D;
+    justify-content: center;
+}
