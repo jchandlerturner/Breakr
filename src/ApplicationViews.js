@@ -11,6 +11,7 @@ import Philosophical from './components/philosophical/Philosophical'
 import Interview from './components/interview/Interview'
 import Networking from './components/networking/Networking'
 import Professional from './components/professional/Professional'
+import AddQuestionForm from './components/questions/AddQuestionForm'
 
 
 class ApplicationViews extends Component {
@@ -19,7 +20,7 @@ class ApplicationViews extends Component {
         return (
             <React.Fragment>
                 <Route exact path="/" render={(props) => {
-                    return <Landing />
+                    return <Landing {...props}/>
                 }} />
                 {/* Make sure you add the `exact` attribute here */}
                 <Route exact path="/relationship" render={(props) => {
@@ -51,6 +52,9 @@ class ApplicationViews extends Component {
                 }} />
                 <Route exact path="/professional" render={(props) => {
                     return <Professional />
+                }} />
+                <Route exact path="/new" render={(props) => {
+                    return <AddQuestionForm {...props}/> 
                 }} />
             </React.Fragment>
         )

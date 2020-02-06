@@ -1,0 +1,31 @@
+#flirtyCard {
+    background-color: #E0746A;
+}
+
+#funnyCard {
+    background-color: #4E98F4;
+    width: 75%;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+}
+
+#friendlyCard {
+    background-color: #7975D5;
+}
+
+#interviewCard, #politicalCard {
+    background-color: #E58B4D;
+}
+
+#networkingCard, #deepCard {
+    background-color: #5BD4C8;
+}
+
+.cardsFlex {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+}

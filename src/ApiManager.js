@@ -26,4 +26,16 @@ export default {
     getNetworking() {
         return fetch(`${remoteURL}/question?categoryId=7`).then(result => result.json())
     },
+    post(newQ) {
+        return fetch(`${remoteURL}/question`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(newQ)
+        }).then(data => data.json())
+    },
+    getCategory() {
+        return fetch(`${remoteURL}/category`).then(result => result.json())
+      }, 
 }

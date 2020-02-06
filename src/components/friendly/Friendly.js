@@ -18,7 +18,7 @@ class Friendly extends Component {
             .then((question) => {
                 //setState is a method built into REACT
                 this.setState({
-                    question: question
+                    questions: question
                 })
             })
     }
@@ -33,6 +33,7 @@ class Friendly extends Component {
                         {this.state.questions.map(question =>
                             <QuestionCard
                                 key={question.id}
+                                category={question.categoryId}
                                 question={question.question}
                                 {...this.props}
                             />
