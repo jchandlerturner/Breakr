@@ -24,34 +24,34 @@ class ApplicationViews extends Component {
                 }} />
                 {/* Make sure you add the `exact` attribute here */}
                 <Route exact path="/relationship" render={(props) => {
-                    return <Relationship />
+                    return <Relationship {...props} />
                 }} />
                 <Route exact path="/category" render={(props) => {
-                    return <Category />
+                    return <Category {...props} />
                 }} />
                 <Route exact path="/friendly" render={(props) => {
-                    return <Friendly />
+                    return <Friendly {...props}/>
                 }} />
                 <Route exact path="/funny" render={(props) => {
-                    return <Funny />
+                    return <Funny {...props}/>
                 }} />
                 <Route exact path="/flirty" render={(props) => {
-                    return <Flirty />
+                    return <Flirty {...props}/>
                 }} />
                 <Route exact path="/political" render={(props) => {
-                    return <Political />
+                    return <Political {...props}/>
                 }} />
                 <Route exact path="/interview" render={(props) => {
-                    return <Interview />
+                    return <Interview {...props}/>
                 }} />
                 <Route exact path="/networking" render={(props) => {
-                    return <Networking />
+                    return <Networking {...props}/>
                 }} />
                 <Route exact path="/philosophical" render={(props) => {
-                    return <Philosophical />
+                    return <Philosophical {...props}/>
                 }} />
                 <Route exact path="/professional" render={(props) => {
-                    return <Professional />
+                    return <Professional {...props}/>
                 }} />
                 <Route exact path="/new" render={(props) => {
                     return <AddQuestionForm {...props}/> 

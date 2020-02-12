@@ -26,10 +26,12 @@ class QuestionCard extends Component {
 
     render() {
         return (
+            <>
 
-            <div id={this.cardDisplay()}>
+                <div id={this.cardDisplay()}>
                     <p className="cardText">{this.props.question}</p>
-            </div>
+                </div>
+            </>
         );
     }
 }

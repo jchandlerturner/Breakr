@@ -12,7 +12,6 @@ class Interview extends Component {
 
     //componentDidMount comes from REACT (basically saying when the component mounts, do THIS)
     componentDidMount() {
-        console.log("ComponentDidMount");
         //getAll from AnimalManager and hang on to that data; put it in state
         ApiManager.getInterview()
             .then((question) => {
@@ -24,7 +23,6 @@ class Interview extends Component {
     }
     //Every component has a render
     render() {
-        console.log(this.state);
 
         return (
             <>

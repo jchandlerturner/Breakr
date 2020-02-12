@@ -24,7 +24,7 @@ class AddQuestionForm extends Component {
         } else {
             this.setState({ loadingStatus: true });
             const question = {
-                question:  this.state.question,
+                question: this.state.question,
                 categoryId: parseInt(this.state.categoryId),
             };
 
@@ -33,7 +33,7 @@ class AddQuestionForm extends Component {
         }
     };
 
-    
+
     componentDidMount() {
         const newState = {}
         ApiManager.getCategory().then(category => {
@@ -46,7 +46,6 @@ class AddQuestionForm extends Component {
     }
 
     render() {
-console.log(this.state)
         return (
             <>
                 <section className="editBody">
@@ -56,9 +55,12 @@ console.log(this.state)
                                 <div className="editForm">
 
 
-                                    <label htmlFor="Question">Question</label>
+                                    <label htmlFor="Question">Question:</label>
+                                    <br></br>
                                     <textarea id="question" onChange={this.handleFieldChange} name="message" rows="10" cols="30">
                                     </textarea>
+                                    <br></br>
+                                    <br></br>
                                     <label htmlFor="Category">Category: </label>
                                     <select
                                         name="category"

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import QuestionList from "../questions/QuestionList"
+import './Landing.css'
 
 class Landing extends Component {
   render() {
@@ -8,17 +8,15 @@ class Landing extends Component {
 
     return (
       <>
-      <img src={require('./Frame.png')} alt="Logo" />
+        <section className="landingBody">
+          <img src={require('./Frame.png')} alt="Logo" />
 
-      <Link className="nav-link" to="/relationship">Click</Link>
-      <button type="button"
-          className="addButton"
-          onClick={() => { this.props.history.push("/new") }}>
-          Add Question
-      </button>
-
+          <div className="landingButton">
+            <Link className="nav-link" to="/relationship">Click</Link>
+          </div>
+        </section>
       </>
-      
+
     )
   }
 }
