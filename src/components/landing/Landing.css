@@ -3,3 +3,22 @@
     justify-content: center;
     flex-direction: column;
 }
+
+.landingButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80%;
+    margin-right: 2em;
+}
+
+#logo {
+    height: 50%;
+    width: 50%;
+}
+
+.logoDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 25%;
+}

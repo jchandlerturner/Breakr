@@ -16,7 +16,7 @@ class Category extends Component {
           <p>Needing an ice breaker?
           <br></br>
             <br></br>
-            What's your relationship to this person?</p>
+            What kind of conversation are you having?</p>
         </div>
         <div className="buttonDiv">
           <Link className="friendly" to="/friendly">FRIENDLY</Link>

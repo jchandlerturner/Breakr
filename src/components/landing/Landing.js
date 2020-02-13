@@ -9,10 +9,11 @@ class Landing extends Component {
     return (
       <>
         <section className="landingBody">
-          <img src={require('./Frame.png')} alt="Logo" />
-
+          <div className="logoDiv">
+            <img id="logo" src={require('./Frame.png')} alt="Logo" />
+          </div>
           <div className="landingButton">
-            <Link className="nav-link" to="/relationship">Click</Link>
+            <img onClick={() => { this.props.history.push(`/category`) }} src={require('./Vector3.png')} alt="Logo" />
           </div>
         </section>
       </>

@@ -1,15 +1,13 @@
-
-
 #funnyCard {
     background-color: #4E98F4;
     margin-top: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1em;
+    padding: .25em;
     border-radius: 15px;
     height: 40%;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 42px;
     padding: 1em;
     width: 70%;
@@ -26,7 +24,7 @@
     padding: 1em;
     border-radius: 15px;
     height: 40%;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 42px;
     padding: 1em;
     width: 70%;
@@ -43,7 +41,7 @@
     padding: 1em;
     border-radius: 15px;
     height: 40%;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 42px;
     padding: 1em;
     width: 70%;
@@ -60,11 +58,12 @@
     padding: 1em;
     border-radius: 15px;
     height: 40%;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 42px;
     padding: 1em;
     width: 70%;
     height: 70%;
+    font-family: 'PT Mono', monospace;
 }
 
 #networkingCard, #deepCard {
@@ -76,11 +75,12 @@
     padding: 1em;
     border-radius: 15px;
     height: 40%;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 42px;
     padding: 1em;
     width: 70%;
     height: 70%;
+    font-family: 'PT Mono', monospace;
 }
 
 .cardsFlex {
@@ -153,4 +153,16 @@ fieldset {
 
 label {
     font-family: 'PT Mono', monospace;
+    text-transform: uppercase;
+}
+
+select {
+    color: white;
+    font-family: 'PT Mono', monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.cardText {
+    margin: 0;
 }

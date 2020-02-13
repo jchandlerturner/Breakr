@@ -99,13 +99,13 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 12%;
 }
 
 #back {
     height: 45px;
     width: 45px;
-    margin: 2em 2em 2em 1em;
+    margin: 1.5em 2em 1.5em 1em;
 }
 
 .textContent {
@@ -124,4 +124,18 @@ p {
 
 #add {
     height: 100px;
+}
+
+.relationshipContent {
+    font-family: 'PT Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #A8A9AC;
+    margin-top: 6.15em; 
+}
+
+p {
+    margin-left: 1em;
 }

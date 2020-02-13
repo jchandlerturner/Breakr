@@ -27,6 +27,8 @@ class Flirty extends Component {
 
         return (
             <>
+                <img id="back" onClick={() => { this.props.history.push(`/category`) }} src={require('../category/Vector.png')} alt="Logo" />
+
                 <section className="cardsFlex">
                     <div className="container-cards">
                         {this.state.questions.map(question =>
@@ -37,7 +39,7 @@ class Flirty extends Component {
                                 {...this.props}
                             />
                         )}
-                </div>
+                    </div>
                 </section>
             </>
 

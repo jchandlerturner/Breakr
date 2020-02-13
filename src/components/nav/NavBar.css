@@ -71,6 +71,7 @@ small {
   #homeIcon {
     height: 45px;
     width: 45px;
+    margin-top: .5em;
   }
 
   #add {

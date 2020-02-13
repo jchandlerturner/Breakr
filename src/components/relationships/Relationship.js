@@ -9,7 +9,7 @@ class Relationship extends Component {
     return (
       <>
         <section className="mainBody">
-          <div className="textContent">
+          <div className="relationshipContent">
 
             <p>Needing an ice breaker?
           <br></br>
@@ -24,9 +24,6 @@ class Relationship extends Component {
             <Link className="political" to="/category">FAMILY</Link>
 
           </div>
-          {/* <div className="addButton">
-            <img id="add" src={require('./Group 2.png')} alt="My Dog" />
-          </div> */}
         </section>
       </>
 

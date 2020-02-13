@@ -8,14 +8,22 @@ class Professional extends Component {
 
     return (
       <>
-      <div>
-      <p>Category</p>
+        <div>
+        </div>
+        <div className="textContent">
+          <img id="back" onClick={() => { this.props.history.push(`/relationship`) }} src={require('../category/Vector.png')} alt="Logo" />
 
-      <Link className="political" to="/interview">INTERVIEW</Link>
-      <Link className="stranger" to="/networking">NETWORKING</Link>
-      </div>
+          <p>Needing an ice breaker?
+          <br></br>
+            <br></br>
+            What kind of conversation are you having?</p>
+        </div>
+        <div className="buttonDiv">
+          <Link className="political" to="/interview">INTERVIEW</Link>
+          <Link className="stranger" to="/networking">NETWORKING</Link>
+        </div>
       </>
-      
+
     )
   }
 }
