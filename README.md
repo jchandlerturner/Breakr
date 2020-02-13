@@ -11,7 +11,8 @@ The app begins by asking you an initial question such as “What is your relatio
 
 How can we help users start meaningful conversations? 
 
-<b>Research<b>
+<b>Research</b>
+
 I used a mixture of in person qualitative interviews and quantitative data from a survey I sent out to jumpstart my research process. The data I gathered proved invaluable to my app: I was able to narrow the scope of the application, create a user persona, and decide what options would be available within the app.
 <img src="wD-persona-01.png" alt="Persona">
 
