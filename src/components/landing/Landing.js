@@ -10,7 +10,7 @@ class Landing extends Component {
       <>
         <section className="landingBody">
           <div className="logoDiv">
-            <img id="logo" src={require('./Frame.png')} alt="Logo" />
+            <img id="logo" src={require('./breakrlogo-01.png')} alt="Logo" />
           </div>
           <div className="landingButton">
             <img onClick={() => { this.props.history.push(`/category`) }} src={require('./Vector3.png')} alt="Logo" />

@@ -1,6 +1,7 @@
 #funnyCard {
     background-color: #4E98F4;
     margin-top: 2em;
+    margin-bottom: 6em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,6 +19,7 @@
 #flirtyCard {
     background-color: #E0746A;
     margin-top: 2em;
+    margin-bottom: 6em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +36,8 @@
 
 #friendlyCard {
     background-color: #7975D5;
-    margin-top: 2em;
+    margin-top: 4em;
+    margin-bottom: 6em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,6 +55,7 @@
 #interviewCard, #politicalCard {
     background-color: #E58B4D;
     margin-top: 2em;
+    margin-bottom: 6em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,6 +73,7 @@
 #networkingCard, #deepCard {
     background-color: #5BD4C8;
     margin-top: 2em;
+    margin-bottom: 6em;
     display: flex;
     flex-direction: column;
     justify-content: center;
