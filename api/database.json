@@ -83,21 +83,6 @@
       "categoryId": 7,
       "question": "How did you hear about this event?",
       "personal": false
-    },
-    {
-      "question": "sup",
-      "categoryId": 3,
-      "id": 15
-    },
-    {
-      "question": "Do you think Maddie is cool? ",
-      "categoryId": 2,
-      "id": 16
-    },
-    {
-      "question": "Do you like hair? ",
-      "categoryId": 1,
-      "id": 17
     }
   ],
   "category": [

@@ -7,13 +7,13 @@
 .landingButton {
     display: flex;
     justify-content: flex-end;
-    margin-top: 80%;
+    margin-top: 50%;
     margin-right: 2em;
 }
 
 #logo {
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
 }
 
 .logoDiv {
